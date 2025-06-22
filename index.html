@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi primera página web</title>
+
+  <!-- Font Awesome para íconos -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e3f2fd;
+      margin: 0;
+      padding: 0;
+      color: #333333;
+    }
+
+    header {
+      background-color: #1976d2;
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.3em;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .seccion {
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #1976d2;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #1565c0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .icono {
+      color: #1976d2;
+      margin-right: 8px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666666;
+      margin: 40px 0 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-laptop-code icono"></i> Mi primera página web</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="seccion" style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 2;">
+    <h2><i class="fas fa-user-graduate icono"></i> Biografía</h2>
+    <p>
+      Soy <strong>Camila Jennifer Pastor Gomez</strong>, nací el 1 de marzo del 2005 en la ciudad de Arequipa, actualmente tengo 20 años, soy estudiante de 
+      <a href="https://ucsp.edu.pe/carreras/ingenieria-industrial/" target="_blank"><strong>Ingeniería Industrial</strong></a> en la 
+      <a href="https://www.ucsp.edu.pe" target="_blank"><strong>Universidad Católica San Pablo (UCSP)</strong></a> de Arequipa, Perú.
+    </p>
+    <p>Esta pagina web ha sido creada como parte de un proyecto academico, con el objetivo de mostrar mi desarrollo personal y profesional en el area de informatica, me interesa especialmente lo que es cantar, escuchar musica, ver tiktoks, ver redes sociales,etc. Espero este espacio sirva para compartir parte de mi trabajo, mis ideas y mi crecimiento como futura profesional. ¡Gracias por visitar!</p>
+  </div>
+  <div style="flex: 1;">
+    <img src="camila.jpeg" alt="Foto de Camila" style="width: 100%; max-width: 200px; border-radius: 15px; box-shadow: 0px 4px 12px rgba(0,0,0,0.2);" />
+  </div>
+</div>
+
+<div class="seccion">
+  <h2><i class="fas fa-school icono"></i> Trayectoria</h2>
+  <p>
+  <strong>Colegio:</strong> 
+  <a href="https://www.facebook.com/SagradoCorazonDeJesusArequipa" target="_blank">
+    Sagrado Corazón de Jesús
+  </a> 
+  <span>(inicial, primaria y secundaria)</span>
+</p>
+  <p>
+    <strong>Universidad:</strong> 
+    <a href="https://www.ucsp.edu.pe" target="_blank">Universidad Católica San Pablo </a>
+    <span>(estudios superiores - actualidad)</span>
+  </p>
+</div>
+
+    <div class="seccion">
+  <h2><i class="fas fa-book icono"></i> Estudios</h2>
+  <p>Actualmente estoy llevando los siguientes cursos:</p>
+  <ul>
+    <li>Matemática II</li>
+    <li>Física I</li>
+    <li>Cálculo I</li>
+    <li>
+      Fundamentos de Informática<br>
+      Profesor: <a href="mailto:ecuadros@ucsp.edu.pe">ecuadros@ucsp.edu.pe</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/ecuadrosv?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Ernesto Cuadros Vargas</a>
+    </li>
+  </ul>
+  <p>Mis compañeros más cercanos en el curso de Informática son:</p>
+  <ul>
+    <li>Darryl Alberto Muller Herrera</li>
+    <li>Fabricio Javier Rivera Astete</li>
+    <li>Anderson Luis Gamarra Caya</li>
+    <li>Nicolás Mauricio Grupp Vargas</li>
+  </ul>
+</div>
+
+    <div class="seccion">
+  <h2><i class="fas fa-envelope icono"></i> Contacto</h2>
+  <p>Si deseas saber un poco más de mí, te dejo mis redes sociales:</p>
+  <p><strong>Instagram:</strong> <a href="https://www.instagram.com/its_camijpg" target="_blank">@its_camijpg</a></p>
+  <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@its_camijpg01" target="_blank">@its_camijpg01</a></p>
+  <p><strong>Correo:</strong> <a href="mailto:camila.pastor.gomez@ucsp.edu.pe">camila.pastor.gomez@ucsp.edu.pe</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/camila-pastor-g%C3%B3mez-886204358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Camila Pastor</a></p>
+</div>
+
+  </div>
+
+  <footer>
+    Hecho por Camila Pastor - 2025
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
